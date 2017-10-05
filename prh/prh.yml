@@ -10,14 +10,23 @@ rules:
       - FlowType
   - expected: "まったく"
     pattern: "全く"
-  - expected: "チャットワーク API"
-    pattern: "ChatWork API"
+  - expected: "チャットワークAPI"
+    patterns:
+      - "ChatWork API"
+      - "チャットワーク API"
   - expected: "Google Apps Script"
     pattern: "GAS"
   - expected: "利用できます"
     pattern: "利用することができます"
   - expected: "限らないわけです"
     pattern: ”限りません"
+  - expected: "チャットワーク"
+    patterns:
+      - "ChatWork"
+      - "ChatWark"
+      - "Chatwork"
+      - "chatwork"
+      - "chotwork"
   - expected: 1つ目
     pattern: 一つ目
   - expected: 2つ目
