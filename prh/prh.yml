@@ -1,0 +1,39 @@
+version: 1
+rules:
+  - expected: "それはさておき"
+    pattern: "それはさてき"
+  - expected: "Flow"
+    patterns:
+      - flowtype
+      - flow
+      - Flow
+      - FlowType
+  - expected: "まったく"
+    pattern: "全く"
+  - expected: "チャットワーク API"
+    pattern: "ChatWork API"
+  - expected: "Google Apps Script"
+    pattern: "GAS"
+  - expected: "利用できます"
+    pattern: "利用することができます"
+  - expected: "限らないわけです"
+    pattern: ”限りません"
+  - expected: 1つ目
+    pattern: 一つ目
+  - expected: 2つ目
+    pattern: 二つ目
+  - expected: 3つ目
+    pattern: 三つ目
+  - expected: 4つ目
+    pattern: 四つ目
+  - expected: 5つ目
+    pattern: 五つ目
+  - expected: 6つ目
+    pattern: 六つ目
+  - expected: 7つ目
+    pattern: 七つ目
+  - expected: 8つ目
+    pattern: 八つ目
+  - expected: 9つ目
+    pattern: 九つ目
+
